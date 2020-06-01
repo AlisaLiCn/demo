@@ -19,7 +19,7 @@
 const showNotification = () => {
   Notification.requestPermission().then((permission) => {
     console.log('permission', permission);
-    const notification = new Notification('关注提醒', { icon: 'https://img.t.sinajs.cn/t5/style/images/staticlogo/logoContrast_pic.png?version=b7ab82f98c0aaf6a', body: '@胡歌 关注了你' }); // 显示通知
+    const notification = new Notification('关注提醒', { icon: 'https://weibo.com/favicon.ico', body: '@胡歌 关注了你' }); // 显示通知
   });
 };
 </script>
